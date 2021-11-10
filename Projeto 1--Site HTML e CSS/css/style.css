@@ -1,0 +1,137 @@
+html {
+    font-size: 12px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: gray;
+    background-size: cover;
+    background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color:aquamarine
+}
+
+/* classe em css*/
+.container {
+    margin:auto;
+    width: 80%;
+   /* height: 800px;*/
+    background-color: floralwhite;
+}
+.banner{
+    height: 150px;
+    background-color: lightblue;
+}
+
+.banner > img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    background-color: tomato;
+    letter-spacing: 0.1rem;
+    transition: 0.5s;
+    /*word-spacing: 1rem; 
+    */
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px 25px;
+    /* TOP RIGHT BOTTOM LEFT */
+    color: #f9f9f9f9;
+}
+.menu a:hover {
+    background-color: violet;
+    transition: 0.5s;
+}
+.corpo {
+    min-height: 350px;
+    height: auto;
+    width: 35px 75px;
+    background-color: white;
+    text-align: justify;
+}
+.rodape {
+    height: 150px;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 25px 0 50px 0;
+    background-color: slategray;
+    color: #252525;
+}
+.rodape a {
+    color:#999999;
+    text-decoration: none;
+}
+.rodapea:hover {
+    color: #f9f9f9;
+
+}
+.links {
+    width: 25%;
+}
+
+.conteudo {
+    width: 45%;
+    display: inline;
+    vertical-align: top;
+    text-align: justify;
+
+}
+
+.redes-sociais {
+    width: 25%;
+    border: 1px solid red;
+}
+.redes-sociais img{
+    width: 32px;
+}
+
+
+/*
+a:link {
+    color:aqua
+}
+a:active{
+    color:greenyellow
+}
+a:visited {
+    color: indigo;
+}
+a:hover{
+    background-color: #e73f50;
+}
+*/
+/* css AVANÇADO*/
+/*.menu ul,li{
+    list-style-type:none ;
+    display: inline;
+    margin: 0;
+
+
+}*/
+/*
+.corpo {
+    width: 80%;
+    margin: auto;
+    height: 800px;
+    background-color: honeydew;
+
+}
+
+.banner {
+    height: 180px;
+    background: honeydew url("../img/banner.jpg");
+    background-size: contain;
+
+}*/
